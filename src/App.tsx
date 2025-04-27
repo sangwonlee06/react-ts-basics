@@ -1,3 +1,13 @@
-export default function App() {
-  return <h1>Let's get started!</h1>;
-}
+import CourseGoal from "./components/CourseGoal.tsx";
+
+const App = () => {
+    return (
+        <main>
+          <CourseGoal title={"Learn React + TS"}>
+            <p>Learn it from the ground up</p>
+          </CourseGoal>
+        </main>
+    );
+};
+
+export default App;
